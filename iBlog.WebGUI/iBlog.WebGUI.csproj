@@ -22,4 +22,10 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\iBlog.BusinessLayer\iBlog.BusinessLayer.csproj" />
+    <ProjectReference Include="..\iBlog.DataAccessLayer\iBlog.DataAccessLayer.csproj" />
+    <ProjectReference Include="..\iBlog.EntityLayer\iBlog.EntityLayer.csproj" />
+  </ItemGroup>
+
 </Project>
